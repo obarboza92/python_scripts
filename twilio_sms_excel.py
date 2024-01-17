@@ -1,9 +1,8 @@
 from twilio.rest import Client
 import json
 import pandas as pd
+from config import account_sid, auth_token
 
-account_sid = 'ACb8eef81e158531b4d736f37687862342'
-auth_token = '142e6b60df4ead9631b5ed426efd4ec3'
 client = Client(account_sid, auth_token)
 filepath = r"C:\Users\obarb\Downloads\Numbers.xlsx" 
 
